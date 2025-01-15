@@ -1,0 +1,31 @@
+{
+  "name": "@upstash/text2emoji",
+  "version": "1.0.0",
+  "description": "An SDK to convert text to its corresponding emoji based on semantic meaning using Upstash Vector.",
+  "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.js"
+    }
+  },
+  "scripts": {
+    "build": "echo 'Building the package...'",
+    "test": "echo 'No tests defined' && exit 0",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "sdk",
+    "text2emoji",
+    "emoji",
+    "vector",
+    "upstash"
+  ],
+  "author": "Enes Akar <enes@upstash.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@upstash/vector": "^1.2.0",
+    "dotenv": "^16.4.7"
+  }
+}

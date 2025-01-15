@@ -1,0 +1,42 @@
+# Node.js dependencies
+/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Environment files
+.env
+.env.*.local
+
+# Directory for local modules
+.local
+
+# Build folders
+/dist
+/build
+
+# Optional npm cache
+.npm
+
+# IDE/editor-related
+.vscode/
+.idea/
+*.swp
+
+# Temporary files or folders
+*.bak
+*.tmp
+
+# OS/Dev-related files
+.DS_Store
+Thumbs.db
