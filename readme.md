@@ -12,6 +12,9 @@ The key features include:
 - Emoji data is enriched using OpenAI ChatGPT model.
 ---
 
+## Demo
+https://upstash-emoji-search.vercel.app/
+
 ## Installation and Usage
 
 ### Seed Vector Index 
